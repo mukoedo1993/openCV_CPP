@@ -30,6 +30,8 @@ int main()
       imwrite("Results/Image blur.png",imgBlur);
        imwrite("Results/Image Canny.png",imgCanny);
         imwrite("Results/Image Dil.png",imgDil);
+
+        waitKey(0);
         // imshow("Image Erode",imgErode);
 
 }
