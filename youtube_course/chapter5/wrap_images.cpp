@@ -26,11 +26,19 @@ matrix1 = getPerspectiveTransform(src1,dst1);
 warpPerspective(img, imgWrap, matrix, Point(w,h));
 warpPerspective(img, imgWrap1, matrix1, Point(w,h));
 
-imshow("Image",img);
+for(int i=0;i<4;i++)
+{
+    circle(img, src[i], 10, Scalar(0, 0, 255), FILLED);
+}
+
+imshow("Image",img);//The image now is added with circles on four corners of the King Card
 imshow("ImageWrap",imgWrap);//We could see that we wrap our target image successfully
+
+
 imshow("ImageWrap1",imgWrap1);
 
 //output our results:
+imwrite("Results/cards.jpg",img);
 imwrite("Results/king.jpg",imgWrap);
 imwrite("Results/queen.jpg",imgWrap1);
 waitKey(0);
