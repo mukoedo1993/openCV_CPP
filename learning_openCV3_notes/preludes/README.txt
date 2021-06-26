@@ -1,0 +1,1 @@
+We are going to use cmake for this book to build our code.
