@@ -1,3 +1,0 @@
-/home/zcw/openCV_clone/openCV_CPP/learning_openCV3_notes/Chap1/toy_project_release/build/CMakeFiles/rebuild_cache.dir
-/home/zcw/openCV_clone/openCV_CPP/learning_openCV3_notes/Chap1/toy_project_release/build/CMakeFiles/ocv_sample.dir
-/home/zcw/openCV_clone/openCV_CPP/learning_openCV3_notes/Chap1/toy_project_release/build/CMakeFiles/edit_cache.dir
