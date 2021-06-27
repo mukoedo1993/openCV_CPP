@@ -4,7 +4,7 @@ Run on terminal:
 mkdir build && cd build
 export DISPLAY=:0
 cmake ..
-cmake --build . --config Release # release mode
+cmake --build . --config Debug # Debug mode
 ./ocv_sample 
 ```
-We have used the release mode via cmake.
+So, we have used debug mode by exploiting the cmake.
